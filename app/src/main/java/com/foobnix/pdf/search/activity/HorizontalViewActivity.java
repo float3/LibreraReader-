@@ -87,6 +87,7 @@ import com.foobnix.pdf.info.view.ProgressDraw;
 import com.foobnix.pdf.info.view.UnderlineImageView;
 import com.foobnix.pdf.info.widget.DraggbleTouchListener;
 import com.foobnix.pdf.info.widget.FileInformationDialog;
+import com.foobnix.pdf.info.widget.ContinueReadingWidget;
 import com.foobnix.pdf.info.widget.ShareDialog;
 import com.foobnix.pdf.info.wrapper.DocumentController;
 import com.foobnix.pdf.info.wrapper.MagicHelper;
@@ -1749,6 +1750,9 @@ public class HorizontalViewActivity extends AdsFragmentActivity {
         //handler.postDelayed(closeRunnable, AppState.APP_CLOSE_AUTOMATIC);
         handlerTimer.removeCallbacks(updateTimePower);
         GFile.runSyncService(this);
+
+        // The home screen widget shows the progress just saved
+        ContinueReadingWidget.refresh(this);
     }
 
     public synchronized void nextPage() {

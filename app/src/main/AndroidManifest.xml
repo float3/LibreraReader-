@@ -398,6 +398,18 @@
                 android:resource="@xml/book_cover_provider" />
         </receiver>
 
+        <receiver
+            android:name=".widget.ContinueReadingWidget"
+            android:exported="false"
+            android:label="${appName}">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/continue_reading_provider" />
+        </receiver>
+
         <service
             android:name=".widget.StackGridWidgetService"
             android:exported="false"

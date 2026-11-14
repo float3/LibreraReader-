@@ -61,6 +61,7 @@ public class RecentUpates {
                 intent.setAction("android.appwidget.action.APPWIDGET_UPDATE");
                 c.sendBroadcast(intent);
             }
+            ContinueReadingWidget.refresh(c);
 
         } catch (Exception e) {
             LOG.e(e);

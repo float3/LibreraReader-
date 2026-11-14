@@ -34,6 +34,7 @@ import com.foobnix.pdf.info.PasswordDialog;
 import com.foobnix.pdf.info.R;
 import com.foobnix.pdf.info.model.BookCSS;
 import com.foobnix.pdf.info.view.BrightnessHelper;
+import com.foobnix.pdf.info.widget.ContinueReadingWidget;
 import com.foobnix.pdf.info.wrapper.DocumentController;
 import com.foobnix.pdf.search.activity.HorizontalViewActivity;
 import com.foobnix.pdf.search.activity.ViewBinder;
@@ -266,6 +267,9 @@ public class VerticalViewActivity extends AbstractActionActivity<VerticalViewAct
           //  handler.postDelayed(closeRunnable, AppState.APP_CLOSE_AUTOMATIC);
         }
         GFile.runSyncService(this);
+
+        // The home screen widget shows the progress just saved
+        ContinueReadingWidget.refresh(this);
 
     }
 

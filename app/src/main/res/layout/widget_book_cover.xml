@@ -3,6 +3,7 @@
     android:id="@+id/cover"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/transparent"
     android:adjustViewBounds="true"
     android:scaleType="fitCenter"
     android:src="@mipmap/icon_pdf_pro" />

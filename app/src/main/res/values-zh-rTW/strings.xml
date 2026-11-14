@@ -180,6 +180,7 @@
    <string name="folders">檔夾</string>
    <string name="recent">最近</string>
    <string name="clear_all">清空</string>
+   <string name="restore_recent">從閱讀進度還原</string>
    <string name="search_history_and_autocomplete">歷史記錄</string>
    <string name="press_any_key">任意按鍵</string>
    <string name="restore_default_keys">重置按鍵</string>

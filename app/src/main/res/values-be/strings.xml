@@ -180,6 +180,7 @@
    <string name="folders">Папка</string>
    <string name="recent">Нядаўні</string>
    <string name="clear_all">Ачысціць усё</string>
+   <string name="restore_recent">Аднавіць з прагрэсу чытання</string>
    <string name="search_history_and_autocomplete">Гісторыя пошуку і аўтазапаўненне</string>
    <string name="press_any_key">Націсніце любую кнопку</string>
    <string name="restore_default_keys">Аднавіць па змаўчанні</string>

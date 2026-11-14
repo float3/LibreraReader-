@@ -180,6 +180,7 @@
    <string name="folders">Aplankai</string>
    <string name="recent">Naujausi</string>
    <string name="clear_all">Išvalyti viską</string>
+   <string name="restore_recent">Atkurti iš skaitymo eigos</string>
    <string name="search_history_and_autocomplete">Paieškos istorija ir automatinis užbaigimas</string>
    <string name="press_any_key">Spausti bet kurį klavišą</string>
    <string name="restore_default_keys">Atstatyti</string>

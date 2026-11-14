@@ -180,6 +180,7 @@
    <string name="folders">फ़ोल्डर</string>
    <string name="recent">हाल का</string>
    <string name="clear_all">सभी साफ करें</string>
+   <string name="restore_recent">पढ़ने की प्रगति से पुनर्स्थापित करें</string>
    <string name="search_history_and_autocomplete">खोज इतिहास और स्वत: पूर्ण</string>
    <string name="press_any_key">कोई बटन दबाए</string>
    <string name="restore_default_keys">डिफ़ॉल्ट कुंजी पुनर्स्थापित</string>

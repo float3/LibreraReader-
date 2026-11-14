@@ -180,6 +180,7 @@
    <string name="folders">Karpetak</string>
    <string name="recent">Ikusi berria</string>
    <string name="clear_all">Garbitu guztia</string>
+   <string name="restore_recent">Leheneratu irakurketa-aurrerapenetik</string>
    <string name="search_history_and_autocomplete">Bilaketa-historia eta osatze automatikoa</string>
    <string name="press_any_key">Sakatu edozein tekla</string>
    <string name="restore_default_keys">Leheneratu tekla lehenetsiak</string>

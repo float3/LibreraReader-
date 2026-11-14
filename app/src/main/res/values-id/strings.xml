@@ -180,6 +180,7 @@
    <string name="folders">Map</string>
    <string name="recent">Baru</string>
    <string name="clear_all">Bersihkan semua</string>
+   <string name="restore_recent">Pulihkan dari kemajuan membaca</string>
    <string name="search_history_and_autocomplete">Cari history dan autocomplete</string>
    <string name="press_any_key">Tekan tombol apa saja</string>
    <string name="restore_default_keys">Kembalikan Tombol Kanan</string>

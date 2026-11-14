@@ -180,6 +180,7 @@
    <string name="folders">Hakemisto</string>
    <string name="recent">Viimeisimmät</string>
    <string name="clear_all">Tyhjennä</string>
+   <string name="restore_recent">Palauta lukuedistymisestä</string>
    <string name="search_history_and_autocomplete">Hakuhistoria ja automaattinen täydennys</string>
    <string name="press_any_key">Paina mitä tahansa näppäintä</string>
    <string name="restore_default_keys">Palauta oletukset</string>

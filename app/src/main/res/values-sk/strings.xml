@@ -180,6 +180,7 @@
    <string name="folders">Priečinky</string>
    <string name="recent">Nedávne</string>
    <string name="clear_all">Vymazať všetko</string>
+   <string name="restore_recent">Obnoviť z priebehu čítania</string>
    <string name="search_history_and_autocomplete">História vyhľadávania a automatické dopĺňanie</string>
    <string name="press_any_key">Stlačte ľubovolné tlačidlo</string>
    <string name="restore_default_keys">Obnoviť predvolené</string>

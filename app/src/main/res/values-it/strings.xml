@@ -180,6 +180,7 @@
    <string name="folders">Cartelle</string>
    <string name="recent">Recenti</string>
    <string name="clear_all">Cancella</string>
+   <string name="restore_recent">Ripristina dai progressi di lettura</string>
    <string name="search_history_and_autocomplete">Cronologia delle ricerche e completamento automatico</string>
    <string name="press_any_key">Premere un tasto qualsiasi</string>
    <string name="restore_default_keys">Ripristina tasti predefiniti</string>

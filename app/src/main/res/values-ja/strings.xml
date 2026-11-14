@@ -180,6 +180,7 @@
    <string name="folders">フォルダ</string>
    <string name="recent">最近開いたファイル</string>
    <string name="clear_all">すべてクリア</string>
+   <string name="restore_recent">読書の進捗から復元</string>
    <string name="search_history_and_autocomplete">検索履歴とオートコンプリート</string>
    <string name="press_any_key">任意のキーを押してください</string>
    <string name="restore_default_keys">デフォルトキーの復元</string>

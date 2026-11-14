@@ -180,6 +180,7 @@
    <string name="folders">Carpetas</string>
    <string name="recent">Reciente</string>
    <string name="clear_all">Limpiar todo</string>
+   <string name="restore_recent">Restaurar desde el progreso de lectura</string>
    <string name="search_history_and_autocomplete">Historial de búsqueda y autocompletar</string>
    <string name="press_any_key">Presione cualquier tecla</string>
    <string name="restore_default_keys">Restaurar teclas por defecto</string>

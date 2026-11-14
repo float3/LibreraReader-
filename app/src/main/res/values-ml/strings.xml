@@ -180,6 +180,7 @@
    <string name="folders">ഫോൾഡർ</string>
    <string name="recent">സമീപകാലത്ത്</string>
    <string name="clear_all">എല്ലാം മായ്ക്കുക</string>
+   <string name="restore_recent">വായനാ പുരോഗതിയിൽ നിന്ന് പുനഃസ്ഥാപിക്കുക</string>
    <string name="search_history_and_autocomplete">തിരയൽ ചരിത്രവും യാന്ത്രിക പൂർത്തീകരണവും</string>
    <string name="press_any_key">ഏതെങ്കിലും ബട്ടൺ അമർത്തുക</string>
    <string name="restore_default_keys">നേരത്തെയുള്ളത് പുനസ്ഥാപിക്കുക</string>

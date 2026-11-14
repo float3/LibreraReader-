@@ -180,6 +180,7 @@
    <string name="folders">Klasör</string>
    <string name="recent">Son</string>
    <string name="clear_all">Hepsini temizle</string>
+   <string name="restore_recent">Okuma ilerlemesinden geri yükle</string>
    <string name="search_history_and_autocomplete">Arama geçmişi ve otomatik tamamlama</string>
    <string name="press_any_key">Herhangi bir tuşa basın</string>
    <string name="restore_default_keys">Varsayılana dön</string>

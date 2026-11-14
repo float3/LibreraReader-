@@ -180,6 +180,7 @@
    <string name="folders">Теки</string>
    <string name="recent">Недавні</string>
    <string name="clear_all">Очистити всі</string>
+   <string name="restore_recent">Відновити з прогресу читання</string>
    <string name="search_history_and_autocomplete">Історія пошуку та автозаповнення</string>
    <string name="press_any_key">Натисніть будь-яку клавішу</string>
    <string name="restore_default_keys">Відновити оригінальні клавіші</string>

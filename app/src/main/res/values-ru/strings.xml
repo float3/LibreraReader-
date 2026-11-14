@@ -180,6 +180,7 @@
    <string name="folders">Папки</string>
    <string name="recent">Недавнее</string>
    <string name="clear_all">Очистить все</string>
+   <string name="restore_recent">Восстановить из прогресса чтения</string>
    <string name="search_history_and_autocomplete">История поиска и автозаполнение</string>
    <string name="press_any_key">Нажмите на любую клавишу</string>
    <string name="restore_default_keys">Вернуть значения клавиш по умолчанию</string>

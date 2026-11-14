@@ -180,6 +180,7 @@
    <string name="folders">Mappar</string>
    <string name="recent">Nyligen</string>
    <string name="clear_all">Rensa alla</string>
+   <string name="restore_recent">Återställ från läsförlopp</string>
    <string name="search_history_and_autocomplete">Sökhistorik och autofullständig</string>
    <string name="press_any_key">Tryck valfri knapp</string>
    <string name="restore_default_keys">Återställ standard Keys</string>

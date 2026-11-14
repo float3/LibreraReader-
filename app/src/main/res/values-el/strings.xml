@@ -180,6 +180,7 @@
    <string name="folders">Ντοσιέ</string>
    <string name="recent">Πρόσφατος</string>
    <string name="clear_all">Τα καθαρίζω όλα</string>
+   <string name="restore_recent">Επαναφορά από την πρόοδο ανάγνωσης</string>
    <string name="search_history_and_autocomplete">Ιστορικό αναζήτησης και αυτόματη συμπλήρωση</string>
    <string name="press_any_key">Πατήστε οποιοδήποτε κουμπί</string>
    <string name="restore_default_keys">Επαναφορά προεπιλογής</string>

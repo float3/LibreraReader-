@@ -180,6 +180,7 @@
    <string name="folders">Mappen</string>
    <string name="recent">Recent</string>
    <string name="clear_all">Wis alles</string>
+   <string name="restore_recent">Herstellen uit leesvoortgang</string>
    <string name="search_history_and_autocomplete">Zoekgeschiedenis en automatisch aanvullen</string>
    <string name="press_any_key">Druk op een willekeurige toets</string>
    <string name="restore_default_keys">Standaardwaarden herstellen</string>

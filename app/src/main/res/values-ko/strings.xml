@@ -180,6 +180,7 @@
    <string name="folders">폴더</string>
    <string name="recent">최근 폴더</string>
    <string name="clear_all">모두 지우기</string>
+   <string name="restore_recent">읽기 진행 상황에서 복원</string>
    <string name="search_history_and_autocomplete">검색 기록 및 자동 완성</string>
    <string name="press_any_key">아무 키나 누르십시오</string>
    <string name="restore_default_keys">기본 키 복원</string>

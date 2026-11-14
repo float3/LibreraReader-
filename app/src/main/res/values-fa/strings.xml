@@ -180,6 +180,7 @@
    <string name="folders">پوشه</string>
    <string name="recent">اخیر</string>
    <string name="clear_all">همه را پاک کن</string>
+   <string name="restore_recent">بازیابی از پیشرفت مطالعه</string>
    <string name="search_history_and_autocomplete">سابقه جستجو و تکمیل خودکار</string>
    <string name="press_any_key">هر کلید را فشار دهید</string>
    <string name="restore_default_keys">بازگرداندن طور پیش فرض کلید</string>

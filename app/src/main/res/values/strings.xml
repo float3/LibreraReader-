@@ -182,6 +182,7 @@
    <string name="folders">Folder</string>
    <string name="recent">Recent</string>
    <string name="clear_all">Clear all</string>
+   <string name="restore_recent">Restore from reading progress</string>
    <string name="search_history_and_autocomplete">Search history and auto-complete</string>
    <string name="press_any_key">Press any button</string>
    <string name="restore_default_keys">Restore default</string>

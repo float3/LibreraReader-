@@ -180,6 +180,7 @@
    <string name="folders">Қалта</string>
    <string name="recent">Жақында</string>
    <string name="clear_all">Барлығын тазалау</string>
+   <string name="restore_recent">Оқу барысынан қалпына келтіру</string>
    <string name="search_history_and_autocomplete">Іздеу тарихын және авто-аяқтау</string>
    <string name="press_any_key">Кез келген түймені басыңыз</string>
    <string name="restore_default_keys">Әдепкі бойынша қалпына келтіру</string>

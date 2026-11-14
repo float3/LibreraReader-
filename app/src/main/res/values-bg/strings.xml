@@ -180,6 +180,7 @@
    <string name="folders">Папка</string>
    <string name="recent">Скорошен</string>
    <string name="clear_all">Изчисти всичко</string>
+   <string name="restore_recent">Възстановяване от напредъка на четене</string>
    <string name="search_history_and_autocomplete">История на търсенето и автоматично завършване</string>
    <string name="press_any_key">Натиснете произволен бутон</string>
    <string name="restore_default_keys">Възстанови по подразбиране</string>

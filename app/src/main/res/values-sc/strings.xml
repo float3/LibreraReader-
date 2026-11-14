@@ -180,6 +180,7 @@
    <string name="folders">Cartellas</string>
    <string name="recent">Reghentes</string>
    <string name="clear_all">Isbòida totu</string>
+   <string name="restore_recent">Torra a pònnere dae su progressu de letura</string>
    <string name="search_history_and_autocomplete">Chirca in sa cronologia e in sa cumpridura automàtica</string>
    <string name="press_any_key">Incarca cale si siat butone</string>
    <string name="restore_default_keys">Riprìstina sas predefinidas</string>

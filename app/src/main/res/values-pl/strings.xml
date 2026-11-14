@@ -180,6 +180,7 @@
    <string name="folders">Katalogi</string>
    <string name="recent">Ostatnie</string>
    <string name="clear_all">Wyczyść wszystko</string>
+   <string name="restore_recent">Przywróć z postępu czytania</string>
    <string name="search_history_and_autocomplete">Historia wyszukiwania i autouzupełnianie</string>
    <string name="press_any_key">Naciśnij dowolny przycisk</string>
    <string name="restore_default_keys">Przywróć wartości domyślne</string>

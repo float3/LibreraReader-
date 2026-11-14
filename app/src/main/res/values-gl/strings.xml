@@ -182,6 +182,7 @@
    <string name="folders">Cartafoles</string>
    <string name="recent">Recentes</string>
    <string name="clear_all">Borrar todo</string>
+   <string name="restore_recent">Restaurar desde o progreso de lectura</string>
    <string name="search_history_and_autocomplete">Historial e autocompletado</string>
    <string name="press_any_key">Preme calquera botón</string>
    <string name="restore_default_keys">Restaurar predeterminado</string>

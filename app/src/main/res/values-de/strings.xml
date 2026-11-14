@@ -180,6 +180,7 @@
    <string name="folders">Ordner</string>
    <string name="recent">Verlauf</string>
    <string name="clear_all">Alles löschen</string>
+   <string name="restore_recent">Aus dem Lesefortschritt wiederherstellen</string>
    <string name="search_history_and_autocomplete">Suchverlauf und Auto-Vervollständigung</string>
    <string name="press_any_key">Beliebige Taste drücken</string>
    <string name="restore_default_keys">Standard-Tastenbelegung wiederherstellen</string>

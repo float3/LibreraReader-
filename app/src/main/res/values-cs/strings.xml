@@ -180,6 +180,7 @@
    <string name="folders">Složka</string>
    <string name="recent">Poslední</string>
    <string name="clear_all">Smazat vše</string>
+   <string name="restore_recent">Obnovit z průběhu čtení</string>
    <string name="search_history_and_autocomplete">Historie vyhledávání a automatického doplňování</string>
    <string name="press_any_key">Stiskněte libovolné tlačítko</string>
    <string name="restore_default_keys">Obnovit výchozí</string>

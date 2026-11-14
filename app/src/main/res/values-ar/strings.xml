@@ -180,6 +180,7 @@
    <string name="folders">المجلدات</string>
    <string name="recent">السجل</string>
    <string name="clear_all">امسح الكل</string>
+   <string name="restore_recent">استعادة من تقدم القراءة</string>
    <string name="search_history_and_autocomplete">سجل البحث والإكمال التلقائي</string>
    <string name="press_any_key">اضغط أي زر</string>
    <string name="restore_default_keys">استرجاع الأزرار الإفتراضية</string>

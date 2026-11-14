@@ -180,6 +180,7 @@
    <string name="folders">Dosare</string>
    <string name="recent">Recente</string>
    <string name="clear_all">Curata tot</string>
+   <string name="restore_recent">Restaurează din progresul lecturii</string>
    <string name="search_history_and_autocomplete">Istoricul căutărilor și autocompletarea</string>
    <string name="press_any_key">Apăsați orice tastă</string>
    <string name="restore_default_keys">Restaurarea cheilor implicite</string>

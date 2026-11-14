@@ -180,6 +180,7 @@
    <string name="folders">Carpeta</string>
    <string name="recent">Recents</string>
    <string name="clear_all">Esborrar-ho tot</string>
+   <string name="restore_recent">Restaura des del progrés de lectura</string>
    <string name="search_history_and_autocomplete">Històric de cerca i auto-completat</string>
    <string name="press_any_key">Premeu qualsevol botó</string>
    <string name="restore_default_keys">Restaura els valors predeterminats</string>

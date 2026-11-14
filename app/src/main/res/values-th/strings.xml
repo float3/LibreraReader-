@@ -180,6 +180,7 @@
    <string name="folders">โฟลเดอร์</string>
    <string name="recent">เมื่อเร็วๆนี้</string>
    <string name="clear_all">ลบทั้งหมด</string>
+   <string name="restore_recent">กู้คืนจากความคืบหน้าการอ่าน</string>
    <string name="search_history_and_autocomplete">ประวัติการค้นหาและการเติมข้อความอัตโนมัติ</string>
    <string name="press_any_key">กดปุ่มใดก็ได้</string>
    <string name="restore_default_keys">เรียกคืนคีย์เริ่มต้น</string>

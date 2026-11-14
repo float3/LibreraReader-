@@ -180,6 +180,7 @@
    <string name="folders">கோப்புறை</string>
    <string name="recent">அண்மையில்</string>
    <string name="clear_all">அனைத்தையும் அழி</string>
+   <string name="restore_recent">வாசிப்பு முன்னேற்றத்திலிருந்து மீட்டமை</string>
    <string name="search_history_and_autocomplete">தேடல் வரலாறு மற்றும் தானாக முடிந்தது</string>
    <string name="press_any_key">எந்த பொத்தானையும் அழுத்தவும்</string>
    <string name="restore_default_keys">இயல்புநிலையை மீட்டமை</string>

@@ -20,6 +20,7 @@ import com.foobnix.android.utils.TxtUtils;
 import com.foobnix.dao2.FileMeta;
 import com.foobnix.ext.CacheZipUtils;
 import com.foobnix.model.AppData;
+import com.foobnix.pdf.info.AppsConfig;
 import com.foobnix.model.AppState;
 import com.foobnix.pdf.info.ExtUtils;
 import com.foobnix.pdf.info.R;
@@ -185,6 +186,17 @@ public class RecentFragment2 extends UIFragment<FileMeta> {
                 }
             });
         }
+
+        // Puts back books cleared by mistake, from the reading progress that survives clearing
+        p.getMenu().add(R.string.restore_recent).setIcon(R.drawable.glyphicons_basic_86_reload).setOnMenuItemClickListener(item -> {
+            AppsConfig.executorService.execute(() -> {
+                AppData.get().restoreRecents();
+                if (getActivity() != null) {
+                    getActivity().runOnUiThread(this::populate);
+                }
+            });
+            return false;
+        });
 
         // Emptying the shelf is not something to leave a tap away in the bar, and it asks
         // before it does anything.

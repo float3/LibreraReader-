@@ -180,6 +180,7 @@
    <string name="folders">Fillteán</string>
    <string name="recent">Le déanaí</string>
    <string name="clear_all">Soiléir ar fad</string>
+   <string name="restore_recent">Athchóirigh ó dhul chun cinn léitheoireachta</string>
    <string name="search_history_and_autocomplete">Stair chuardaigh agus uathoibríoch-iomlán</string>
    <string name="press_any_key">Brúigh aon chnaipe</string>
    <string name="restore_default_keys">Réamhshocrú a chur ar ais</string>

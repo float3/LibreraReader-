@@ -180,6 +180,7 @@
    <string name="folders">Mapper</string>
    <string name="recent">Nylig</string>
    <string name="clear_all">Rydd alt</string>
+   <string name="restore_recent">Gjenopprett fra lesefremdrift</string>
    <string name="search_history_and_autocomplete">Søkehistorikk og autofullføring</string>
    <string name="press_any_key">Trykk en tast</string>
    <string name="restore_default_keys">Gjenopprett standardtaster</string>

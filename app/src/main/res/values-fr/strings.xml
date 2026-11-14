@@ -180,6 +180,7 @@
    <string name="folders">Dossiers</string>
    <string name="recent">Récent</string>
    <string name="clear_all">Tout effacer</string>
+   <string name="restore_recent">Restaurer depuis la progression de lecture</string>
    <string name="search_history_and_autocomplete">Historique de recherche et saisie semi-automatique</string>
    <string name="press_any_key">Appuyer sur n\'importe quelle touche</string>
    <string name="restore_default_keys">Restaurer les touches par défaut</string>

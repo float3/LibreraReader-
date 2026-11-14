@@ -180,6 +180,7 @@
    <string name="folders">Folders</string>
    <string name="recent">Hivi karibuni</string>
    <string name="clear_all">Futa yote</string>
+   <string name="restore_recent">Rejesha kutoka kwa maendeleo ya kusoma</string>
    <string name="search_history_and_autocomplete">Historia ya Utafutaji na ukamilifu</string>
    <string name="press_any_key">Waandishi wa habari muhimu yoyote</string>
    <string name="restore_default_keys">Kurejesha Default Keys</string>

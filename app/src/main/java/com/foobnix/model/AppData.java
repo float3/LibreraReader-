@@ -298,6 +298,46 @@ public class AppData {
 
     }
 
+    /**
+     * Rebuilds the recent list from reading progress, which "Clear all" leaves behind: every
+     * library book with a saved position comes back at the time it was last read.
+     *
+     * Progress is keyed by file name only (e.g. "moby.epub"), so a book is found again by its
+     * name in the library; a book outside the library cannot be.
+     *
+     * @return the number of books put back
+     */
+    public int restoreRecents() {
+        SharedBooks.preloadAll(true);
+
+        Map<String, String> byName = new HashMap<>();
+        for (FileMeta meta : AppDB.get().getAll()) {
+            byName.put(ExtUtils.getFileName(meta.getPath()), meta.getPath());
+        }
+
+        List<SimpleMeta> recent = getSimpleMeta(AppProfile.syncRecent);
+        int count = 0;
+        for (Map.Entry<String, AppBook> entry : SharedBooks.cache.entrySet()) {
+            String path = byName.get(entry.getKey());
+            long time = entry.getValue().t;
+            if (path == null || time <= 0) {
+                continue;
+            }
+
+            SimpleMeta meta = SimpleMeta.SyncSimpleMeta(new SimpleMeta(path, time));
+            if (recent.contains(meta)) {
+                continue;
+            }
+            recent.add(meta);
+            count++;
+        }
+
+        recentCacheTime = 0;
+        writeSimpleMeta(recent, AppProfile.syncRecent);
+        RecentUpates.updateAll();
+        return count;
+    }
+
     public  List<FileMeta> getAllSyncBooks() {
         List<FileMeta> res = new ArrayList<>();
 

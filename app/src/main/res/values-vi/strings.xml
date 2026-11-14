@@ -180,6 +180,7 @@
    <string name="folders">Thư mục</string>
    <string name="recent">Mới đây</string>
    <string name="clear_all">Làm sạch tất cả</string>
+   <string name="restore_recent">Khôi phục từ tiến độ đọc</string>
    <string name="search_history_and_autocomplete">Lịch sử tìm kiếm và tính năng tự động hoàn thành</string>
    <string name="press_any_key">Nhấn bất kỳ nút nào</string>
    <string name="restore_default_keys">Restore Default phím</string>

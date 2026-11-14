@@ -180,6 +180,7 @@
    <string name="folders">Mappa</string>
    <string name="recent">Legutóbbi</string>
    <string name="clear_all">Összes törlése</string>
+   <string name="restore_recent">Visszaállítás az olvasási előrehaladásból</string>
    <string name="search_history_and_autocomplete">Keresési előzmények és automatikus kiegészítés</string>
    <string name="press_any_key">Nyomja meg bármelyik gombot</string>
    <string name="restore_default_keys">Alapértelmezett visszaállítása</string>

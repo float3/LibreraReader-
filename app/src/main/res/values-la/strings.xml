@@ -180,6 +180,7 @@
    <string name="folders">Coopercula</string>
    <string name="recent">Recentissimi</string>
    <string name="clear_all">Omnia purgare</string>
+   <string name="restore_recent">Restitue ex progressu lectionis</string>
    <string name="search_history_and_autocomplete">Search history and autocomplete</string>
    <string name="press_any_key">Press Any Key</string>
    <string name="restore_default_keys">Restore Default Keys</string>

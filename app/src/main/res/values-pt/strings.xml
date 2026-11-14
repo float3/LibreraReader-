@@ -180,6 +180,7 @@
    <string name="folders">Pastas</string>
    <string name="recent">Recentes</string>
    <string name="clear_all">Limpar tudo</string>
+   <string name="restore_recent">Restaurar a partir do progresso de leitura</string>
    <string name="search_history_and_autocomplete">Histórico de busca e preenchimento automático</string>
    <string name="press_any_key">Toque qualquer tecla</string>
    <string name="restore_default_keys">Restaurar padrão de teclas</string>

@@ -180,6 +180,7 @@
    <string name="folders">תיקיות</string>
    <string name="recent">לאחרונה</string>
    <string name="clear_all">נקה את כל</string>
+   <string name="restore_recent">שחזור מהתקדמות הקריאה</string>
    <string name="search_history_and_autocomplete">היסטוריית החיפושים וההשלמה האוטומטית</string>
    <string name="press_any_key">לחץ על מקש כלשהו</string>
    <string name="restore_default_keys">שחזור מפתחות ברירת מחדל</string>

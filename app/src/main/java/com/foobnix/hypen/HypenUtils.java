@@ -3,6 +3,7 @@ package com.foobnix.hypen;
 import com.foobnix.android.utils.LOG;
 import com.foobnix.android.utils.TxtUtils;
 import com.foobnix.model.AppData;
+import com.foobnix.model.AppSP;
 import com.foobnix.model.AppState;
 import com.foobnix.model.SimpleMeta;
 import com.foobnix.pdf.info.model.BookCSS;
@@ -68,6 +69,18 @@ public class HypenUtils {
         }
         LOG.d("My-pattern-lang", instance.pattern.lang);
 
+    }
+
+    /**
+     * Whether the text is rewritten word by word: hyphens, or bionic reading, which bolds the
+     * first half of each word (see {@link TxtUtils#toBionicWord(String)}). Bionic reading needs
+     * no hyphenation language, so it must not hide behind the hyphens' own switch.
+     */
+    public static boolean isWordsProcess() {
+        if (AppState.get().isBionicMode) {
+            return true;
+        }
+        return BookCSS.get().isAutoHypens && TxtUtils.isNotEmpty(AppSP.get().hypenLang);
     }
 
     public static String applyHypnes(String htmlEncode) {

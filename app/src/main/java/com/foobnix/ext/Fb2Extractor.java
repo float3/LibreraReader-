@@ -235,8 +235,7 @@ public class Fb2Extractor extends BaseExtractor {
             line = processRemoteImages(line);
 
 
-            boolean isProcess = AppState.get().isEnableTextReplacement ||
-                    (BookCSS.get().isAutoHypens && TxtUtils.isNotEmpty(AppSP.get().hypenLang));
+            boolean isProcess = AppState.get().isEnableTextReplacement || HypenUtils.isWordsProcess();
             if (isProcess) {
                 line = HypenUtils.applyHypnes(line, replacements);
             }
@@ -1352,8 +1351,7 @@ public class Fb2Extractor extends BaseExtractor {
                 }
 
                 if (!isFindBodyEnd) {
-                    boolean isProcess = AppState.get().isEnableTextReplacement ||
-                            (BookCSS.get().isAutoHypens && TxtUtils.isNotEmpty(AppSP.get().hypenLang));
+                    boolean isProcess = AppState.get().isEnableTextReplacement || HypenUtils.isWordsProcess();
                     if (isProcess) {
                         line = HypenUtils.applyHypnes(line, replacements);
                     }

@@ -64,7 +64,7 @@ EpubContext extends PdfContext {
         }
 
         final boolean process = /** LibreraBuildConfig.DEBUG || **/AppState.get().isEnableTextReplacement || BookCSS.get().isAutoHypens ||
-                AppState.get().isReferenceMode || AppState.get().isShowFooterNotesInText || BookCSS.get().isEnableBBCode;
+                AppState.get().isBionicMode || AppState.get().isReferenceMode || AppState.get().isShowFooterNotesInText || BookCSS.get().isEnableBBCode;
         // A copy cut short by the app dying while converting - before proccessHypens wrote it
         // aside first - would be reused for good, and the book never open again
         if (cacheFile.isFile() && !new ZipFile(cacheFile).isValidZipFile()) {
